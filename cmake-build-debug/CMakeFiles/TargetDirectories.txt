@@ -1,0 +1,3 @@
+C:/Users/renof/tu/Dokumendid/4. semester/C++/Projekt/Kalkulaator/cmake-build-debug/CMakeFiles/Kalkulaator.dir
+C:/Users/renof/tu/Dokumendid/4. semester/C++/Projekt/Kalkulaator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/renof/tu/Dokumendid/4. semester/C++/Projekt/Kalkulaator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
