@@ -1,0 +1,18 @@
+# ninja log v6
+24	681	7671183195751197	CMakeFiles/Kalkulaator.dir/parser.cpp.obj	18e7f2d3571d36a3
+7	687	7671183195575026	CMakeFiles/Kalkulaator.dir/main.cpp.obj	fb696cbd77ee2eea
+17	691	7671183195676914	CMakeFiles/Kalkulaator.dir/calculator.cpp.obj	f85e4a1197d94a16
+692	1007	7671183202419558	Kalkulaator.exe	b9bf711cc28ad259
+7	524	7671183979755267	CMakeFiles/Kalkulaator.dir/main.cpp.obj	fb696cbd77ee2eea
+524	648	7671183984933838	Kalkulaator.exe	b9bf711cc28ad259
+14	541	7671184253049537	CMakeFiles/Kalkulaator.dir/main.cpp.obj	fb696cbd77ee2eea
+542	662	7671184258334458	Kalkulaator.exe	b9bf711cc28ad259
+13	526	7671184410454829	CMakeFiles/Kalkulaator.dir/main.cpp.obj	fb696cbd77ee2eea
+527	653	7671184415586005	Kalkulaator.exe	b9bf711cc28ad259
+18	532	7671185848203997	CMakeFiles/Kalkulaator.dir/parser.cpp.obj	18e7f2d3571d36a3
+14	550	7671185848157922	CMakeFiles/Kalkulaator.dir/main.cpp.obj	fb696cbd77ee2eea
+550	669	7671185853522722	Kalkulaator.exe	b9bf711cc28ad259
+15	570	7671186589778636	CMakeFiles/Kalkulaator.dir/parser.cpp.obj	18e7f2d3571d36a3
+570	698	7671186595329754	Kalkulaator.exe	b9bf711cc28ad259
+7	506	7671189112810458	CMakeFiles/Kalkulaator.dir/main.cpp.obj	fb696cbd77ee2eea
+507	630	7671189117807533	Kalkulaator.exe	b9bf711cc28ad259
