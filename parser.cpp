@@ -26,17 +26,65 @@ int Parser::getChoice() {
 }
 
 void Parser::getOperand(double &a, double &b, bool oneOperand) {
+    string aDirty, bDirty;
     cout << "Sisesta arv 1: ";
-    cin >> a;
+    //cin >> a;
+    cin >> aDirty;
+    try {
+        a = stod(aDirty);
+    } catch (const invalid_argument &e) {
+        cout << "Vale sisend! Proovi uuesti.\n";
+        getOperand(a, b, oneOperand);
+        return;
+    } catch (const out_of_range &e) {
+        cout << "Sisestatud arv on liiga suur! Proovi uuesti.\n";
+        getOperand(a, b, oneOperand);
+        return;
+    }
     if (!oneOperand) {
         cout << "Sisesta arv 2: ";
-        cin >> b;
+        //cin >> b;
+        cin >> bDirty;
+        try {
+            b = stod(bDirty);
+        } catch (const invalid_argument &e) {
+            cout << "Vale sisend! Proovi uuesti.\n";
+            getOperand(a, b, oneOperand);
+            return;
+        } catch (const out_of_range &e) {
+            cout << "Sisestatud arv on liiga suur! Proovi uuesti.\n";
+            getOperand(a, b, oneOperand);
+            return;
+        }
     }
 }
 
 void Parser::getOperandForPercentage(double &a, double &b) {
+    string aDirty, bDirty;
     cout << "Sisesta arv: ";
-    cin >> a;
+    cin >> aDirty;
+    try {
+        a = stod(aDirty);
+    } catch (const invalid_argument &e) {
+        cout << "Vale sisend! Proovi uuesti.\n";
+        getOperandForPercentage(a, b);
+        return;
+    } catch (const out_of_range &e) {
+        cout << "Sisestatud arv on liiga suur! Proovi uuesti.\n";
+        getOperandForPercentage(a, b);
+        return;
+    }
     cout << "Sisesta protsent: ";
-    cin >> b;
+    cin >> bDirty;
+        try {
+            b = stod(bDirty);
+        } catch (const invalid_argument &e) {
+            cout << "Vale sisend! Proovi uuesti.\n";
+            getOperandForPercentage(a, b);
+            return;
+        } catch (const out_of_range &e) {
+            cout << "Sisestatud arv on liiga suur! Proovi uuesti.\n";
+            getOperandForPercentage(a, b);
+            return;
+        }
 }
