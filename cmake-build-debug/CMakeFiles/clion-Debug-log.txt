@@ -1,4 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\renof\tu\Dokumendid\4. semester\C++\Projekt\Kalkulaator" -B "C:\Users\renof\tu\Dokumendid\4. semester\C++\Projekt\Kalkulaator\cmake-build-debug"
--- Configuring done (0.2s)
--- Generating done (0.1s)
+"C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -D CMAKE_PREFIX_PATH=C:\Qt\6.9.0\mingw_64\lib\cmake -G Ninja -S "C:\Users\renof\tu\Dokumendid\4. semester\C++\Projekt\Kalkulaator" -B "C:\Users\renof\tu\Dokumendid\4. semester\C++\Projekt\Kalkulaator\cmake-build-debug"
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (0.5s)
+-- Generating done (0.3s)
 -- Build files have been written to: C:/Users/renof/tu/Dokumendid/4. semester/C++/Projekt/Kalkulaator/cmake-build-debug

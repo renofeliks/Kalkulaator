@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect><x>0</x><y>0</y><width>400</width><height>350</height></rect>
+        </property>
+        <property name="windowTitle">
+            <string>Kalkulaator</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QLineEdit" name="input1LineEdit">
+                <property name="geometry"><rect><x>30</x><y>20</y><width>150</width><height>30</height></rect></property>
+            </widget>
+            <widget class="QLineEdit" name="input2LineEdit">
+                <property name="geometry"><rect><x>210</x><y>20</y><width>150</width><height>30</height></rect></property>
+            </widget>
+
+            <!-- Operatsioonide nupud -->
+            <widget class="QPushButton" name="addButton">
+                <property name="geometry"><rect><x>30</x><y>70</y><width>100</width><height>30</height></rect></property>
+                <property name="text"><string>Liitmine</string></property>
+            </widget>
+            <widget class="QPushButton" name="subtractButton">
+                <property name="geometry"><rect><x>140</x><y>70</y><width>100</width><height>30</height></rect></property>
+                <property name="text"><string>Lahutamine</string></property>
+            </widget>
+            <widget class="QPushButton" name="multiplyButton">
+                <property name="geometry"><rect><x>250</x><y>70</y><width>100</width><height>30</height></rect></property>
+                <property name="text"><string>Korrutamine</string></property>
+            </widget>
+            <widget class="QPushButton" name="divideButton">
+                <property name="geometry"><rect><x>30</x><y>110</y><width>100</width><height>30</height></rect></property>
+                <property name="text"><string>Jagamine</string></property>
+            </widget>
+            <widget class="QPushButton" name="powerButton">
+                <property name="geometry"><rect><x>140</x><y>110</y><width>100</width><height>30</height></rect></property>
+                <property name="text"><string>Astendamine</string></property>
+            </widget>
+            <widget class="QPushButton" name="sqrtButton">
+                <property name="geometry"><rect><x>250</x><y>110</y><width>100</width><height>30</height></rect></property>
+                <property name="text"><string>Ruutjuur</string></property>
+            </widget>
+            <widget class="QPushButton" name="percentButton">
+                <property name="geometry"><rect><x>140</x><y>150</y><width>100</width><height>30</height></rect></property>
+                <property name="text"><string>Protsent</string></property>
+            </widget>
+
+            <!-- Vastus -->
+            <widget class="QLabel" name="resultLabel">
+                <property name="geometry"><rect><x>30</x><y>200</y><width>330</width><height>30</height></rect></property>
+                <property name="text"><string>Vastus:</string></property>
+            </widget>
+
+            <widget class="QPushButton" name="clearButton">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>240</y>
+                        <width>100</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Puhasta</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar"/>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
