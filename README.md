@@ -4,7 +4,7 @@ Lihtne kalkulaator. Autorid: Reno Lindvere, Imre Saks
 
 ## Kirjeldus
 
-Kalkulaator on C++ keeles kirjutatud rakendus, mis võimaldab teha põhilisi aritmeetilisi tehteid.
+Kalkulaator on C++ keeles kirjutatud rakendus, mis võimaldab teha põhilisi aritmeetilisi tehteid. Tehtud Tartu Ülikooli aine "Programmeerimine keeles C++" raames.
 
 ## Kasutamine
 
